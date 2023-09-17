@@ -1,0 +1,10 @@
+<h2>Game component</h2>
+<h2> Game id : {{id}}</h2>
+<h2> Game name : {{name}}</h2>
+<hr>
+<p>Avaible games</p>
+<ul>
+    <li *ngFor="let game of games">
+        <a [routerLink]="['/game',game.id,game.name]">{{game.name}}</a> 
+    </li>
+</ul>
