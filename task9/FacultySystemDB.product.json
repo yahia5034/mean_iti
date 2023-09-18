@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "650739bb9f220b76dc3f7286"
+  },
+  "name": "p1",
+  "color": "red",
+  "price": 100
+},
+{
+  "_id": {
+    "$oid": "650739f49f220b76dc3f7287"
+  },
+  "name": "p2",
+  "color": "blue",
+  "price": 200
+},
+{
+  "_id": {
+    "$oid": "65073a4f9f220b76dc3f7288"
+  },
+  "name": "p3",
+  "color": "black",
+  "price": 300
+}]
